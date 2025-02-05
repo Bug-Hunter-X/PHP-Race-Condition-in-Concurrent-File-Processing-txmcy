@@ -1,0 +1,1 @@
+This repository demonstrates a race condition bug in PHP file processing and its solution. The bug occurs when multiple requests attempt to process files concurrently, leading to data overwriting. The solution uses file locking to prevent concurrent access and ensure data integrity.

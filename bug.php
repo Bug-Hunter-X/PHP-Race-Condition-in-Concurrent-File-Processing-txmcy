@@ -1,0 +1,1 @@
+This code suffers from a potential race condition.  If `processFile()` takes a significant amount of time, and multiple requests are made concurrently, the `$fileContents` array could be overwritten before all processing is complete, leading to data loss or incorrect results.
